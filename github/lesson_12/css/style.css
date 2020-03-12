@@ -1,0 +1,36 @@
+.container {
+	margin: 0 auto;
+	display: block;
+	max-width: 100%;
+}
+.header{
+	width: 90%;
+	height: 240px;
+	background-color: #fff794;
+	display: inline-block;
+}
+
+.menu {
+	display: inline-block;
+	width: 25%;
+	height: 500px;
+	background-color: #94ff97;
+	margin-right: 2%;
+}
+
+.content {
+	display: inline-block;
+	width: 65%;
+	height: 500px;
+	background-color: #ab94ff;
+	margin-top: 2%;
+}
+
+/* 
+
+
+body{
+	text-align: center;
+}
+
+*/
