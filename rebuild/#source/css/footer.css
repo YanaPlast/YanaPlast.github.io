@@ -1,0 +1,83 @@
+.container_narr {
+  max-width: 1000px;
+  padding: 0px 15px;
+  margin: 0 auto; }
+
+.contacts {
+  padding: 80px 0px;
+  margin: 0 auto; }
+  .contacts__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: top;
+    -ms-flex-align: top;
+    align-items: top;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+  .contacts__column {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 33.333%;
+    flex: 1 1 33.333%; }
+  .contacts__logo, .contacts__menu, .contacts__social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center; }
+  .contacts__menu li {
+    padding-bottom: 10px; }
+  .contacts__menu__link {
+    color: #4d4959;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .contacts__social {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .contacts__social p {
+      font-size: 18px;
+      margin-bottom: 20px; }
+
+@media (max-width: 667px) {
+  .contacts__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .contacts__social {
+    margin-top: 40px; }
+  .contacts__menu {
+    margin-top: 50px; }
+    .contacts__menu__link {
+      font-size: 20px;
+      font-weight: 400; }
+    .contacts__menu li {
+      padding-bottom: 25px; } }
+
+@media (max-width: 400px) {
+  .contacts__logo {
+    display: none; } }
