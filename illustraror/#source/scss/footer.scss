@@ -1,0 +1,39 @@
+
+.footer{
+	background-color: #9e9d9d;
+	padding: 45px 0;
+    position: relative;
+	z-index: 100;
+	&__body {
+		text-align: center;
+	}
+	&__logo {
+		margin: 40px 0;
+		width: 211px;
+		height: 222px;
+	}
+	&__list {
+		@include flexbox();
+		justify-content: center;
+		align-items: center;
+		margin: 40px 0;
+		@media (max-width:$md3+px){
+			flex-wrap: wrap;
+		}
+		li {
+			margin: 0 15px;
+			@media (max-width:$md3+px){
+				margin: 10px 10px;
+			}
+		}
+	}
+	&__link {
+		color: black;
+		font-size: 14px;
+		font-weight: 400;
+		@media (max-width:$md3+px){
+			font-size: 16px;
+		}
+	}
+}
+
